@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cao Xuan Tung </title>
+</head>
+<body>
+	<h1> Thanh Toán </h1>
+	<p>
+		<label for="Name"> Tên đầy đủ: </label>
+		<input type="text" name="name" placeholder="Nhập tên đầy đủ người mua hàng" size="50" >
+	</p>
+
+	<p>
+		<label> Password: </label>
+		<input type="Password" placeholder="Nhập password">
+	</p>
+
+	<p>
+		<label> Email: </label>
+		<input type="Email" placeholder="Nhập email">
+	</p>
+
+	<p>
+		<label> Ngày sinh: </label>
+		<input type="date">
+	</p>
+
+	<p>
+		<label for="browser"> Mặt hàng mua: </label>
+		<input list="browser" name="browser">
+		<datalist id="browser">
+			<option> Shoes </option>
+			<option> Socks </option>
+			<option> Shirt </option>
+			<option> Sandals </option>
+			<option> Trousers </option>
+		</datalist>
+	</p>
+		<label for="number"> Số lượng mua </label>
+		<input type="number" min="1" max="5" >
+	<p>
+		<label for="range"> Bán kính vận chuyển:</label>
+		<input type="range" name="range" min="10" max="20" >	
+	</p>
+	<button> Đăng kí </button>
+</body>
+</html>
